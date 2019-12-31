@@ -75,10 +75,7 @@ void loop() {
   if ( pulse_width > MAX_DIST ) {
     Serial.println("Out of range");
   } else {
-    Serial.print(cm);
-    Serial.print(" cm \t");
-    Serial.print(inches);
-    Serial.println(" in");
+    Serial.println(cm);
   }
 
   // Wait at least 60ms before next measurement
